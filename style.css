@@ -7,20 +7,29 @@
 section {
     margin: 10% 0;
     width: 100%;
-    height: 450px;
-    padding: 5%;
-    background: rgba(175, 1, 1, .05);
-}
-section > h4 {
+    box-sizing: border-box;
     text-align: center;
-    margin: 15px;
+    height: auto;
+    background: rgba(196,196,196,1);
+}
+section > h3 {
+    text-align: center;
+    padding-top: 20px;
 }
 
 .container {
     display: grid;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 15%;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 7%;
 }
+
+.container > .why {
+    padding: 10px;
+}
+
 .why {
     display: flex;
     justify-content: center;
@@ -37,6 +46,12 @@ section > h4 {
     font-size: 25px;
     margin-bottom: 7px;
 }
+
+.why > div .vector {
+    width: 50%;
+    height: 50%;
+}
+
 h4 {
     font-weight: 900;
 }
@@ -47,22 +62,22 @@ h4 {
 }
 
 #icon1 {
-    background: rgb(245, 245, 96);
+    background: rgba(247,221,164,1);
 }
 #icon2 {
-    background: rgba(120, 245, 96, .7);
+    background: rgba(167,212,119,1);
 }
 #icon3 {
-    background: rgba(168, 95, 36, 0.7);
+    background: rgba(184,144,104,1);
 }
 #icon4 {
-    background: rgba(120, 245, 96, .7);
+    background: rgba(110,186,167,1);
 }
 #icon5 {
-    background: rgba(24, 24, 24, .4);
+    background: rgba(176,162,162,1);
 }
 #icon6 {
-    background:rgba(120, 245, 96, .7);
+    background:rgba(159,161,128,1);
 } 
 
 /* ******* ARTICLE ******* */
@@ -73,10 +88,6 @@ h4 {
     margin-bottom: 0;
 }
 
-.article .row, .article .big {
-    background-color: darkolivegreen;
-    color: darkmagenta;
-}
 .article > h3 {
     text-align: center;
 }
@@ -94,15 +105,54 @@ h4 {
 .grid-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 30px;
-    grid-auto-flow: dense;
-    grid-gap: 13px;
+    grid-auto-rows: auto;
+    text-align: center;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+}
+
+.grid-article div {
+    border-radius: 20px;
+    padding-top: 15px;
+}
+.grid-article img {
+    max-width: 50%;
+}
+
+.grid-article div .lov {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+}
+
+.grid-article .img1 {
+    background: rgba(229,221,144,1);
+}
+.grid-article .img2 {
+    background: rgba(159,161,128,1);
+}
+.grid-article .img3 {
+    background: rgba(222,202,202,1);
+}
+.grid-article .img4 {
+    background: rgba(247,221,164,1);
+}
+.grid-article .img5 {
+    background: rgba(251,143,150,1);
+}
+.grid-article .img6 {
+    background: rgba(188,250,234,1);
 }
 
 .subscribe {
     padding-top: 20px;
     text-align: center;
     padding-bottom: 30px;
+}
+.subscribe p {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .row {
@@ -115,20 +165,20 @@ h4 {
 
 .email {
     text-align: center;
-    /* margin-bottom: -40px; */
+    margin-bottom: -1px;
 }
 
 .email input{
     padding: 10px;
-    /* border-radius: 40% 0 0 0; */
+    border-radius: 20px;
     width: 20rem;
     margin: 0 auto;
 }
 .email button {
-    margin-left: -25px;
+    margin-left: -40px;
     padding: 10px;
     color: #fff;
-    /* border-radius: 40% 40% 0 0; */
+    border-radius: 20px;
     background: #266352;
 }
 
@@ -141,7 +191,7 @@ footer {
     color: white;
     width: 100vw;
     position: relative;
-    padding: 15px;
+    padding: 9px;
 }
 
 .grid {
