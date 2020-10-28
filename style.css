@@ -147,9 +147,9 @@ article .c7 {
 
 .grid-article {
     display: grid;
-    grid-template-columns: repeat(3, .5fr);
-    grid-template-rows: minmax(60px, 120px);
-    /* grid-auto-rows: auto; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(40px, 100px);
+    grid-auto-rows: 70px;
     text-align: center;
     grid-auto-flow: row;
     grid-gap: 15px;
@@ -178,7 +178,7 @@ article .c7 {
 .grid-article div .plus {
     position: absolute;
     bottom: 5%;
-    right: 5%;
+    right: 7%;
     width: 13px;
     height: 13px;
 }
@@ -202,7 +202,7 @@ article .c7 {
 
 .grid-article div .star {
     position: absolute;
-    bottom: 27px;
+    bottom: 28px;
     width: 8px;
     height: 8px;
 }
@@ -221,6 +221,10 @@ article .c7 {
 }
 .grid-article div .s5 {
     right: 5px;
+}
+
+.grid-article div .ra {
+    bottom: 34px;
 }
 
 .grid-article .img1 {
