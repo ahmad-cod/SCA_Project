@@ -148,7 +148,7 @@ article .c7 {
 .grid-article {
     display: grid;
     grid-template-columns: repeat(3, .5fr);
-    grid-template-rows: minmax(60px, 120px);
+    grid-template-rows: minmax(60px, 120px) 60px 60px 60px minmax(60px, 120px);
     /* grid-auto-rows: auto; */
     text-align: center;
     grid-auto-flow: row;
@@ -168,11 +168,11 @@ article .c7 {
 .grid-article div .lov {
     position: absolute;
     right: 10%;
-    width: 20px;
-    height: 20px;
+    width: 13px;
+    height: 13px;
     background: rgba(253, 69, 12, 1);
     border-radius: 50%;
-    padding: 4px;
+    padding: 3px;
 }
 
 .grid-article div .plus {
