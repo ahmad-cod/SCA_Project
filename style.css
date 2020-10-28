@@ -5,7 +5,6 @@
 }
 
 section {
-    margin: 10% 0;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
@@ -81,7 +80,9 @@ h4 {
 } 
 
 /* ******* ARTICLE ******* */
-
+article {
+    position: relative;
+}
 .article {
     padding-top: 15px;
     position: relative;
@@ -94,28 +95,71 @@ h4 {
 
 .flex-article {
     display: flex;
-    margin: 10px;
-    justify-content: center;
+    width: 60%;
+    margin: 10px auto;
+    justify-content: space-around;
 }
 .article a {
     text-decoration: none;
     margin: 2px 15px;
 }
 
+article .esvg {
+    position: absolute;
+    right: 0;
+    width: 55px;
+    height: 110px;
+}
+article .csvg {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+article .c1 {
+    left: -2px;
+    top: 20px;
+}
+article .c2 {
+    left: 12px;
+    top: 25px;
+}
+article .c3 {
+    left: 33px;
+    top: 20px;
+}
+article .c4 {
+    left: 40px;
+    top: 40px;
+}
+article .c5 {
+    left: 26px;
+    top: 42px;
+}
+article .c6 {
+    left: 8px;
+    top: 51px;
+}
+article .c7 {
+    left: 26px;
+    top: 55px;
+}
+
 .grid-article {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, .5fr);
+    grid-template-rows: minmax(60px, 120px);
+    /* grid-auto-rows: auto; */
     text-align: center;
     grid-auto-flow: row;
     grid-gap: 15px;
-    margin: 0 10%;
 }
 
 .grid-article div {
     position: relative;
     border-radius: 20px;
-    padding-top: 15px;
+    margin: 0 auto;
+    padding: 15px 0;
 }
 .grid-article img {
     max-width: 50%;
@@ -134,11 +178,50 @@ h4 {
 .grid-article div .plus {
     position: absolute;
     bottom: 5%;
-    right: 10%;
-    width: 18px;
-    height: 18px;
+    right: 5%;
+    width: 13px;
+    height: 13px;
 }
 
+.grid-article div h6 {
+    position: absolute;
+    left: 42px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.grid-article div p {
+    position: absolute;
+    left: 42px;
+    bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.grid-article div .star {
+    position: absolute;
+    bottom: 27px;
+    width: 8px;
+    height: 8px;
+}
+
+.grid-article div .s1 {
+    right: 37px;
+}
+.grid-article div .s2 {
+    right: 29px;
+}
+.grid-article div .s3 {
+    right: 21px;
+}
+.grid-article div .s4 {
+    right: 13px;
+}
+.grid-article div .s5 {
+    right: 5px;
+}
 
 .grid-article .img1 {
     background: rgba(229,221,144,1);
