@@ -148,7 +148,7 @@ article .c7 {
 .grid-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(40px, 100px);
+    grid-template-rows: minmax(30px, 80px);
     grid-auto-rows: 70px;
     text-align: center;
     grid-auto-flow: row;
@@ -160,9 +160,6 @@ article .c7 {
     border-radius: 20px;
     margin: 0 auto;
     padding: 15px 0;
-}
-.grid-article img {
-    max-width: 50%;
 }
 
 .grid-article div .lov {
@@ -198,6 +195,12 @@ article .c7 {
     bottom: 10px;
     font-size: 11px;
     font-weight: 600;
+}
+
+.grid-article div .g-chair {
+    margin: 10% auto;
+    max-width: 80%;
+    height: 70%;
 }
 
 .grid-article div .star {
@@ -274,12 +277,14 @@ article .c7 {
     padding: 10px;
     border-radius: 20px;
     width: 20rem;
+    outline: rgb(41, 194, 151);
     margin: 0 auto;
 }
 .email button {
     margin-left: -40px;
     padding: 10px;
     color: #fff;
+    outline: #eee;
     border-radius: 20px;
     background: #266352;
 }
