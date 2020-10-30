@@ -1,3 +1,43 @@
-@media screen and (max-width: 500px) {
-    
+@media screen and (max-width: 480px) {
+   .grid {
+       grid-template-columns: repeat(2, 1fr);
+       padding: 2rem;
+       margin: 0 auto;
+   }
+   #social-icon a {
+       padding-left: 5px;
+       color: #fafafa;
+}
+   .links {
+       display: none;
+       position: fixed;
+       text-align: center;
+       right: -100%;
+       bottom: 120px;
+       background: #fafafa;
+       color: #266352;
+       padding: 15px;
+       border-radius: 0 18px 25px 0;
+       transition: all .05s;
+   }
+   .links {
+       display: block;
+   }
+   .checkbtn {
+    display: block;
+    /* margin: 10px 15px; */
+    background: #266352;
+    color: #fafafa;
+    bottom: 100px;
+    right: 5%;
+    opacity: 1;
+}
+#check:checked ~ .links {
+    right: 10%;
+}
+}
+@media screen and (min-width: 480px) {
+    #social-icon {
+        display: none;
+    }
 }

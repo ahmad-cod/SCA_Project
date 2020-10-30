@@ -82,6 +82,7 @@ h4 {
 /* ******* ARTICLE ******* */
 article {
     position: relative;
+    padding-top: 35px;
 }
 .article {
     padding-top: 15px;
@@ -96,9 +97,16 @@ article {
 .flex-article {
     display: flex;
     width: 60%;
-    margin: 10px auto;
+    margin: 13px auto;
     justify-content: space-around;
+    transition: .5s;
 }
+
+.flex-article a:hover, a.active {
+    color: crimson;
+    background: #fafafa;
+}
+
 .article a {
     text-decoration: none;
     margin: 2px 15px;
@@ -106,9 +114,10 @@ article {
 
 article .esvg {
     position: absolute;
-    right: 0;
+    right: -3px;
     width: 55px;
-    height: 110px;
+    top: 0;
+    height: 130px;
 }
 article .csvg {
     position: absolute;
@@ -180,9 +189,13 @@ article .c7 {
     height: 13px;
 }
 
+.grid-article div .pb {
+    bottom: 3.5%;
+}
+
 .grid-article div h6 {
     position: absolute;
-    left: 42px;
+    left: 8%;
     bottom: 20px;
     font-weight: 600;
     font-size: 13px;
@@ -250,7 +263,7 @@ article .c7 {
 }
 
 .subscribe {
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -316,6 +329,8 @@ footer {
     right: 5rem;
     bottom: 1rem;
 }
+
+
 #social-icons i {
     color: rgba(250, 250, 250, 0.966);
     font-size: 15px;
@@ -326,6 +341,26 @@ footer p {
     font-size: 0.8rem;
     margin: 5px 1px 0.8rem;
 }
+
+.links p:hover, .links div a:hover {
+    color: #266352;
+    background-color: #fafafa;
+    padding: 2px 0;
+}
+
+#check {
+    display: none;
+}
+.checkbtn {
+    position: fixed;
+    color: white;
+    font-size: 16px;
+    border: .8px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    display: none;
+}
+
 
 #copyright {
     text-align: center;
