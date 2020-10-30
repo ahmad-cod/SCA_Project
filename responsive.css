@@ -46,10 +46,10 @@
 }
 
 .why #icon2 {
-    margin-top: -4px;
+    margin-top: -8px;
 }
 .why #icon4 {
-    margin-top: 4px;
+    margin-top: 12px;
 }
 
 .grid-article div h6 {
@@ -57,7 +57,7 @@
 }
 
 .grid-article div p {
-    left: 30px;
+    left: 8%;
 }
 
 .grid-article div .plus {
@@ -65,7 +65,7 @@
 }
 
 .grid-article div .star {
-    bottom: 21px;
+    bottom: 25px;
 }
 
 .email button {
