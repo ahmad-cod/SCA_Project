@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
    .grid {
        grid-template-columns: repeat(2, 1fr);
-       padding: 2rem;
+       padding: 1.2rem 0.1rem;
        margin: 0 auto;
    }
    #social-icon a {
@@ -13,12 +13,21 @@
        position: fixed;
        text-align: center;
        right: -100%;
-       bottom: 120px;
+       bottom: 11%;
        background: #fafafa;
        color: #266352;
        padding: 15px;
-       border-radius: 0 18px 25px 0;
+       border-radius: 0 18px 30px 5px;
        transition: all .05s;
+   }
+   .links p a {
+       color: #266352;
+       transition: .8s;
+   }
+   .links p a:hover {
+       background: #266352;
+       padding: 3px 7px;
+       color: #fafafa;
    }
    .links {
        display: block;
@@ -28,13 +37,48 @@
     /* margin: 10px 15px; */
     background: #266352;
     color: #fafafa;
-    bottom: 100px;
+    bottom: 8%;
     right: 5%;
     opacity: 1;
 }
 #check:checked ~ .links {
     right: 10%;
 }
+
+.why #icon2 {
+    margin-top: -4px;
+}
+.why #icon4 {
+    margin-top: 4px;
+}
+
+.grid-article div h6 {
+    bottom: 30px;
+}
+
+.grid-article div p {
+    left: 30px;
+}
+
+.grid-article div .plus {
+    right: 10%;
+}
+
+.grid-article div .star {
+    bottom: 21px;
+}
+
+.email button {
+    width: 60%;
+    padding: .75rem;
+    letter-spacing: 2px;
+    margin: 2px auto 15px auto;
+    /* font-size: 16px; */
+    background: #3d8d76;
+    color: #fefefe;
+    border-radius: 20px;
+}
+
 }
 @media screen and (min-width: 480px) {
     #social-icon {
