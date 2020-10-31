@@ -1,0 +1,256 @@
+.body{
+    height: 50%;
+    order: -1;
+}
+.navbar{
+    width: 100%;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 30px;
+    word-spacing: 50px;
+}
+.navbar a:nth-of-type(2){
+   color: hsl(115, 75%, 45%);
+   margin-left: 25%;
+}
+.navbar a{
+    color: hsl(0, 33%, 2%);
+}
+.navbar a:hover{
+   color: hsl(0, 33%, 2%);
+}
+.none{
+    display: none;
+}
+#oha{
+    height: 8%;
+    width: 4%;
+    position: absolute;
+    left: 6%;
+    top: 4%;
+}
+.move{
+    margin-left: 30%;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.we{
+    margin: 10px;
+}
+#button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 30px;
+}
+.trend{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+    height: 50%;
+}
+#one{
+    width: 50%;
+}
+#two{
+    height: 72%;
+    width: 29%;
+    position: absolute;
+    left: 71%;
+    top: -17%;
+}
+#narnute{
+    height: 58%;
+    width: 55%;
+    position: absolute;
+    left: 16%;
+    top: 21%;
+}
+#leaf{
+    height: 49%;
+    width: 24%;
+    position: absolute;
+    left: 76%;
+    top: 51%;
+}
+#basket{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 89%;
+    top: 27%;
+}
+#contact{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 79%;
+    top: 27%;
+}
+#search{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 69%;
+    top: 27%;
+}
+.flex{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+#ellipse{
+    height: 46%;
+    width: 8%;
+    position: absolute;
+    left: 0%;
+    top: 39%;
+}
+ 
+
+@media screen and (max-width:700px), (min-height:1000px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 10px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 4%;
+        width: 4%;
+        position: absolute;
+        left: 5%;
+        top: 4%;
+    }
+    #two{
+        height: 57%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -15%;
+
+    }
+    #narnute{
+        height: 50%;
+        width: 56%;
+        position: absolute;
+        left: 16%;
+        top: 27%;
+    }
+    #leaf{
+        height: 33%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 28%;
+    }
+    #contact{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 28%;
+    }
+    #search{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 28%;
+    }
+    #ellipse{
+        height: 27%;
+        width: 6%;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 10px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 5%;
+        width: 5%;
+        position: absolute;
+        left: 5%;
+        top: 4%;
+    }
+    #two{
+        height: 65%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -16%;
+    }
+    #narnute{
+        height: 56%;
+        width: 53%;
+        position: absolute;
+        left: 18%;
+        top: 23%;
+    }
+    #leaf{
+        height: 36%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 27%;
+    }
+    #contact{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 27%;
+    }
+    #search{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 27%;
+    }
+    #ellipse{
+        height: 46%;
+        width: 8%;
+        position: absolute;
+        left: 0%;
+        top: 39%;
+    }
+
+
+}
