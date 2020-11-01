@@ -345,6 +345,10 @@ footer p {
     margin: 5px 1px 0.8rem;
 }
 
+.links a {
+    color: #fff;
+}
+
 .links p:hover, .links div a:hover {
     color: #266352;
     background-color: #fafafa;
