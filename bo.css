@@ -14,20 +14,19 @@
     border-top-left-radius: 30px;
 }
 .img02{
-    background-color:rgb(37, 187, 187);
+    background-color:rgb(203, 130, 235);
      margin-left: 20px;
     margin-right: 20px;
     padding-top: 30px;
-    height:149px;
+    height:169px;
     width:269px;
-    left:328px;
-        border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
 .img03{
-    background-color:#B35900;
+    background-color:#fae1b2;
      margin-left: 20px;
     margin-right: 20px;
       height:179px;
@@ -38,7 +37,7 @@
     border-top-left-radius: 30px;
 }
 .img04{
-    background-color:#BCFAFA;
+    background-color: rgb(148, 158, 168);
     margin-left: 20px;
     margin-right: 20px;
       height:179px;
