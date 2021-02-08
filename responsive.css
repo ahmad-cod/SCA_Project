@@ -1,4 +1,10 @@
 @media screen and (max-width: 480px) {
+    /* #tawk {
+        display: none;
+    }
+    #tawkTo {
+        display: none;
+    } */
     .grid {
         grid-template-columns: repeat(2, 1fr);
         padding: 1.2rem 0.1rem;
@@ -100,6 +106,9 @@
      color: #fefefe;
      border-radius: 20px;
  }
+ /* #tawk {
+     display: none;
+ } */
  
  }
  @media screen and (min-width: 480px) {
